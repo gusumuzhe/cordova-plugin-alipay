@@ -22,7 +22,7 @@
   <platform name="android">
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="AliPay">
-        <param name="android-package" value="wang.imchao.plugin.alipay.AliPayPlugin"/>
+        <param name="android-package" value="gusu.muzhe.plugin.alipay.AliPayPlugin"/>
         <param name="onload" value="true" />
       </feature>
     </config-file>

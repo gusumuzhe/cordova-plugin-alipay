@@ -15,8 +15,10 @@
     <engine name="cordova" version=">=3.4.0"/>
   </engines>
 
+  <asset src="www/alipay.js" target="js/alipay.js"/>
+
   <js-module src="www/alipay.js" name="alipay">
-    <clobbers target="Alipay" />
+    <clobbers target="alipay" />
   </js-module>
 
   <platform name="android">

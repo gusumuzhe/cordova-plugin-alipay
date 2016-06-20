@@ -18,7 +18,7 @@
   <asset src="www/alipay.js" target="js/alipay.js"/>
 
   <js-module src="www/alipay.js" name="alipay">
-    <clobbers target="alipay" />
+    <clobbers target="Alipay" />
   </js-module>
 
   <platform name="android">
